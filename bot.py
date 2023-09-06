@@ -9,7 +9,8 @@ import time
 from apscheduler.schedulers.background import BackgroundScheduler
 
 app = Flask(__name__)
-
+contact_number = "+919581420398"
+msg = input("bot testing")
 
 def send_text_message(contact_number,msg):
    payload = json.dumps({
